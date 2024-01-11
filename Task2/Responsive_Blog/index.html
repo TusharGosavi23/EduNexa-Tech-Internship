@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iBlog- Heaven for blogger</title>
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="icon" href="img/blog.png">
+
+</head>
+
+<body>
+    <nav class="navigation max-width1 m-auto">
+        <div class="nav-left">
+            <a href="/EduNexa-Intern/Task2/Responsive_Blog/index.html">
+                <span><img src="/EduNexa-Intern/Task2/Responsive_Blog/img/logo.png" width="94px" alt=""></span>
+            </a>
+            <ul>
+                <li><a href="/EduNexa-Intern/Task2/Responsive_Blog/index.html">Home</a></li>
+                <li><a href="/EduNexa-Intern/Task2/Responsive_Blog/about.html">About</a></li>
+                <li><a href="/EduNexa-Intern/Task2/Responsive_Blog/contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <form action="/EduNexa-Intern/Task2/Responsive_Blog/search.html" method="get">
+                <input class="form-input" type="text" name="Query" placeholder="Article Search" required>
+                <button class="btn">Search</button>
+            </form>
+
+        </div>
+    </nav>
+    <div class="max-width1 m-auto">
+        <hr>
+    </div>
+    <div class="content max-width1 m-auto my-2">
+        <div class="content-left">
+            <h1>The heaven For Bloggers</h1>
+            <p>iBlog is a website which lets you submit an article which upon approval will be up on our website and you
+                can get a good amount of reach from here!</p>
+            <p>My Halloween decorations are staying in the box this year. To be honest, they didn’t make it out of the
+                box last year either. My Halloween spirit has officially been bludgeoned to death by teenagers who no
+                longer care and a persistent October fear of the Northern California wildfires. And speaking of fear,
+                isn’t there more than enough of that going around? Maybe all of us can pretend that Halloween isn’t even
+                happening this year?</p>
+        </div>
+        <div class="content-right">
+            <img src="img/home.svg" alt="iBlog">
+        </div>
+    </div>
+
+    <div class="max-width1 m-auto">
+        <hr>
+    </div>
+
+    <div class="home-articles max-width1 m-auto font1">
+        <h2>Featured Articles</h2>
+        <div class="year-box adjust-year">
+            <h3>Year</h3>
+            <div>
+                <input type="radio" name="year" id="">2020
+            </div>
+            <div>
+                <input type="radio" name="" id="">2021
+            </div>
+            <div>
+                <input type="radio" name="year" id="">2022
+            </div>
+            <div>
+                <input type="radio" name="year" id="">2023
+            </div>
+            <div>
+             <input type="radio" name="year" id="">2024
+            </div>
+
+        </div>
+       
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/TechTrend.webp" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/EduNexa-Intern/Task2/Responsive_Blog/blogpost.html">
+                    <h3>Tech Trends: Charting the Future</h3>
+                </a>
+                <div>
+                    <div> <span>Author Name</span> </div>
+                </div>
+                <span>24 December| 6 min read</span>
+            </div>
+        </div>
+
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/BeyondB.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/EduNexa-Intern/Task2/Responsive_Blog/blogpost.html">
+                    <h3>Beyond the Boundary: Exploring Cricket's Cultural Impact</h3>
+                </a>
+
+                <div> <span>Author Name</span> </div>
+                <span>24 December| 6 min read</span>
+            </div>
+        </div>
+
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/TheSprit.jpeg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/EduNexa-Intern/Task2/Responsive_Blog/blogpost.html">
+                    <h3>The Spirit of Cricket: Legends and Lore</h3>
+                </a>
+                <div> <span>Author Name</span> </div>
+                <span>24 December| 6 min read</span>
+            </div>
+        </div>
+
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/Eco-Warriors.jpeg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/EduNexa-Intern/Task2/Responsive_Blog/blogpost.html">
+                    <h3>Eco-Warriors: Champions for a Sustainable Future.</h3>
+                </a>
+                <div> <span>Author Name</span> </div>
+                <span>24 December| 6 min read</span>
+            </div>
+        </div>
+
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/TechBytes.jpeg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/EduNexa-Intern/Task2/Responsive_Blog/blogpost.html">
+                    <h3>From Bytes to Breakthroughs: Tech's Transformative Journey.</h3>
+                </a>
+                <div> <span>Author Name</span> </div>
+                <span>24 December| 6 min read</span>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="footer  m-auto">
+        <p>Copyright &copy; iBlog.com</p>
+        <!-- <a href="https://www.vecteezy.com/free-vector/typewriter">Vector Credits: Vecteezy</a> -->
+
+    </div>
+
+    
+    <script>
+        // Debounce function to limit the rate of execution
+        function debounce(func, delay) {
+            let timeoutId;
+            return function() {
+                const context = this;
+                const args = arguments;
+                clearTimeout(timeoutId);
+                timeoutId = setTimeout(() => {
+                    func.apply(context, args);
+                }, delay);
+            };
+        }
+
+        // Get the form element
+        const searchForm = document.querySelector('.nav-right form');
+
+        // Add a debounced event listener for form submission
+        searchForm.addEventListener('submit', debounce(function(event) {
+            event.preventDefault(); // Prevent the form from submitting
+
+            // Get the value entered in the input field
+            const queryInput = this.querySelector('.form-input');
+            const query = queryInput.value.trim(); // Trim whitespace from the query
+
+            // Check if the query is not empty
+            if (query !== '') {
+                // Construct the search URL using Google as an example
+                const searchURL = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+
+                // Redirect the user to the search results
+                window.location.href = searchURL;
+            } else {
+                alert('Please enter a search query.');
+            }
+        }, 500)); // Adjust the delay (in milliseconds) as needed
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
